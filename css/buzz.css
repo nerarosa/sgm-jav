@@ -1,0 +1,88 @@
+.b-buzz {
+
+}
+    .b-buzz-header {
+        margin-top: -15px;
+        padding: 0 0 10px;
+    }
+    .b-buzz-desc {
+        position: relative;
+        top: -5px;
+        color: #212121;
+        font-size: 14px;
+        line-height: 20px;
+        margin: -10px 0 0;
+        clear: left;
+    }
+    .b-buzz-voted {
+        float: right;
+        color: #212121;
+        font-family: "Lato", sans-serif;
+        font-weight: bold;
+        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAA1CAYAAAA+qNlvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RjVFREY2RUQwQjdEMTFFNTk3REFDNzlFNzMwOERENjciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RjVFREY2RUUwQjdEMTFFNTk3REFDNzlFNzMwOERENjciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpGNUVERjZFQjBCN0QxMUU1OTdEQUM3OUU3MzA4REQ2NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpGNUVERjZFQzBCN0QxMUU1OTdEQUM3OUU3MzA4REQ2NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PiY0lUoAAAOvSURBVHja7JpbSFRBHMbPbiZqUtJ2EQIzwrCgCxpISeBDPQSb3fShwopeIqqHHgp7iOjF6KUgsej2EkE9VJRRkUXRBawMCX1Iu+AFgoTKJMllzer743dgOpw9e5tzdoX9w48zZ3bOzLfjzOw3c/SN1BlqzAPPwRwjveIzWAV6zAy/pUBJGoo2qKlEzciyFGgB1aAMbAJLmP8FHPVI5DFQyHQHuAnawUO1kM8yVNSYBJrAbt7LF7rjsuh1oJnpc2AvGLMr6HeoRB7Yr4yrHR70ttmNPWx7LFJBf5SKRsE9phd7IHwprw/YtpGocImfvOZ4INxs40e0gjI5D4IajulIM9rr2AnWOAzh6yK8wWZ1SXUUKiuLXZRlKaJlyflkU0jGdqnHwrtAp03+fC7VWWpPXwRnbQofB/UeC78FDtvk7wFnzMk5yMwCI/1jKq+DIryPN8smgPAyXvtF+BPlV2t2GoueRY0Sj0X4efAH5HKc+9JQtGi6RI2i9YKfM7iJBYLgCpiSRqLzqCnIe9H6zvzlPASeMb0VfABH6IEDKRAbYNui4SM1Sbyg1v/cYQ4d2fYIlfWDuS4LloWiKMJnl+lUQ1avEqIDrAJ3zQIpjhC1VFFbyMlkPeV4mgkq+E0lsj0Qmq30bgU1BKkpZnc4DF6DNt5P80C42UYb2x5OxtYO8JrrMP50RBHbMLeKRrJ+vENJr3RRuFp3pw7h3VxRDPp2t6JGWVm6dQiXuKpsmItdEF3MuiWuxfJArMLFSobBZG48dEcD6w5HsNYJC5eh0sj0FlCrUXQt6zTYRl9M5sXhXMUaMuPfggXgF1gNWpMUvQI8oh95T2s9orPHDVYoE2iIDbUoxieRCLKOPHbEtlhFxyvcXKaq2VA+T50a49w9FfCZZtYhdW0Eb+IR4k+gp8RFVvK0SXzyPo7Lk2B5hDolr5xlevmMj3VUsufjM+hxjHG7njsBdlmON4bo8b8pFrXUYhl+c2NQH8vhj27hZiwEB8BmMD1K2e/gBjglm4GktkQahKvOTo4V1oKv4BXzxeXNAPfBBq7VSYff0Bdh5aiji6tGkGmDn4V1NaZTuKeREZ4RnhGeEZ4RnhGekoj3pVUgymbZNFn5tLFm2vys3OHZXsVRajVZOazcrcP/AXZKSPdQkQP1URf/+qNsQ/tQEWe3yBj/9wvdby3+GuNn8mG3xri8Hm+fCJNTJtR6HtZ4GTJsbnPHlJDw0zw2SEXIe5+6RCdnq8sT0qnHXzoV+CfAAKMjuR+wAKYLAAAAAElFTkSuQmCC') 0 0 no-repeat;
+        text-transform: uppercase;
+        padding-left: 55px;
+        margin: -22px 40px 0 40px;
+    }
+        .b-buzz-voted > strong {
+            display: block;
+            font-size: 30px;
+            line-height: 20px;
+        }
+        .b-buzz-voted > span {
+            display: block;
+            font-size: 21px;
+            line-height: 20px;
+            margin-top: 13px;
+        }
+
+    .b-buzz-item {
+        border-top: 1px solid #f2f2f2;
+        margin: 0 -20px;
+        padding: 20px;
+        overflow: hidden;
+    }
+        .b-buzz-item-info {
+            overflow: hidden;
+            padding: 10px 0 0 20px;
+        }
+        .b-buzz-item .picture {
+            float: left;
+            width: 218px;
+            height: 148px;
+            border: 1px solid #c3c3c3;
+            background: #fff 50% 50% no-repeat;
+        }
+        .b-buzz-item .title {
+            float: left;
+            color: #212121;
+            font-family: "Lato", sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            line-height: 20px;
+            margin: 0;
+        }
+        .b-buzz-item .stars {
+            float: left;
+            width: 125px;
+            margin-left: 15px;
+        }
+            .b-buzz-item .stars > i {
+                display: block;
+                height: 20px;
+                background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDAzMjdCMTcwQjgxMTFFNUE1QTlEOUU4MUFCQTI2NTMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDAzMjdCMTgwQjgxMTFFNUE1QTlEOUU4MUFCQTI2NTMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpEMDMyN0IxNTBCODExMUU1QTVBOUQ5RTgxQUJBMjY1MyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpEMDMyN0IxNjBCODExMUU1QTVBOUQ5RTgxQUJBMjY1MyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PlPPAxIAAAESSURBVHjaYvz//z8DrQETAx3AqCUkARZsgj/iGPHpmQzEzECchUsBx6L/FPlEA4gzgTgViNVoFVyNUF+AQqCeFpboAnEoEj8CiFWoZYkgEGsBcQMQM6LpbQZiHSAWJznigWA+EOsBsRIQC+DRHwHFIPATiO8D8XEgTiLGJ3+B2IiABeiAHZow2IgNLlDy3EZGltiE7gt8lvyCRvJJEiwAqY2E6iU64r8BsS8QPyDCgqdQtd/ISV2vgfgNEZa8g6olOwlLUKqGGEvE0PiggukfmpgoELOSa4kIUpL8A8RLoflHB5qXkCNZnFxLeID4JRBPBWJVII4B4itAfB2aVJWBuA+IP0DLNKyAcbSOH5mWAAQYALczLzk+cTMwAAAAAElFTkSuQmCC') 0 50% repeat;
+            }
+        .b-buzz-item .text {
+            color: #212121;
+            font-size: 14px;
+            line-height: 20px;
+            clear: left;
+            margin: 0;
+            padding: 10px 0 15px;
+        }
+        .b-buzz-item .btn {
+            font-size: 12px;
+            line-height: 28px;
+            text-transform: none;
+        }
